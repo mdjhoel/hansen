@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Van Horne Trail</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo" style="color: #C9DEF1;padding-left:10px;padding-bottom:10px">Hansen Holdings</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="explore.html">Explore</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="col s12">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="photos/sa_night.jpg">
+          </li>
+          <li>
+            <img src="photos/sa_waterfront.jpg">
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card">
+          <a href="about.html">
+          <div class="card-action black">
+            <span id='labels'>ABOUT</span>
+          </div>
+          <div class="card-image">
+            <img src="photos/about.png" style='padding:5px'>
+          </div>
+          </a>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card">
+          <a href="explore.html">
+          <div class="card-action black">
+            <span id='labels'>EXPLORE</span>
+          </div>
+          <div class="card-image">
+            <img src="photos/explore.png" style='padding:5px'>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer black white-text">
+      <div id="mycontainer">
+        <div class="row">
+          <div class="col l6 s12">
+            <h4 style="color: #C9DEF1">Hansen Holdings</h4>
+            <h6 class="white-text">Real estate</h6>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h4>Contact us</h4>
+            <p id="contact">
+              <h6 class="white-text">Henry Hansen</h6>
+              <h6 class="white-text">(506) 321-6068</h6>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var instances = M.Materialbox.init(elems);
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.slider');
+      var instances = M.Slider.init(elems);
+    });
+  </script>
+</html>
