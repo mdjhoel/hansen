@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hansen Holdings</title>
+    <title>Vanhorne Village</title>
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- Custom css -->
     <link rel="stylesheet" href="css/styles.css">
 
@@ -21,7 +22,8 @@
         <a href="index.html" class="brand-logo"><img src='photos/hansen.png' height='55px' style='padding-top: 10px; padding-left: 10px;'></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#explore">Explore</a></li>
+          <li><a href="#details">Details</a></li>
+          <li><a href="#explore">Map</a></li>
           <li><a href="#photos">Photos</a></li>
         </ul>
       </div>
@@ -29,35 +31,60 @@
 
     <div class="col s12">
       <img src="photos/ministers.jpg" alt="Ministers island" style="width:100%; margin:0px; padding:0px;">
+      <div id="floater">
+        <p>Act now to purchase the last accessible large parcels in Saint Andrews with ocean views.</p>
+        <a href='#details' class='waves-effect waves-light blue btn'>Details</a>
+      </div>
     </div>
 
     <div class="row white-text" style="padding-left: 10px; padding-bottom:20px;">
         <div class="col s12 m5">
           <h5>Land for sale</h5>
-          <p>Almost 30 acres of land available in beautiful <a href="https://explorestandrews.ca/" target="_blank">St. Andrews, NB</a>. Spectacular views and walking distance to Passamaquoddy Bay and <a href="https://www.ministersisland.net/" target="_blank">Ministers island</a> National Historic Site. <a href="photos/subdiv.png" target="_blank">Property 1#</a> is legally subdived if you wish to buy a 1 acre water view lot.</p></p>
+          <p>Almost 30 acres of land available in beautiful <a href="https://explorestandrews.ca/" target="_blank">St. Andrews, NB</a>. Spectacular views and walking distance to Passamaquoddy Bay and <a href="https://www.ministersisland.net/" target="_blank">Ministers island</a> National Historic Site. </p>
         </div>
-        <div class="col s12 m2">
-          <h5>Details</h5>
-          <span><a href="https://paol-efel.snb.ca/paol.html?v=1.0.92&lang=en&pan=01474969" target="_blank">Property 1#</a></span> |
-          <span><a href="https://paol-efel.snb.ca/paol.html?v=1.0.92&lang=en&pan=06573124" target="_blank">Property 2#</a></span>
-        </div>
-        <div class="col s12 m5">
+        <div class="col s12 m7">
           <div class="white-text">
             <h5>Why buy?</h5>
-            <div class="blue lighten-1 chip white-text">Maritime resort town</div>
-            <div class="blue lighten-1 chip white-text">Restaurants and culture</div><div class="blue lighten-1 chip white-text">Growth in all demographics</div><div class="blue lighten-1 chip white-text">College town</div><div class="blue lighten-1 chip white-text">Housing shortage</div><div class="blue lighten-1 chip white-text">Government incentives</div>
+            <div class="blue lighten-1 chip white-text">Maritime resort town</div><div class="blue lighten-1 chip white-text">Restaurants and culture</div><div class="blue lighten-1 chip white-text">Growth in all demographics</div><div class="blue lighten-1 chip white-text">College town</div><div class="blue lighten-1 chip white-text">Housing shortage</div><div class="blue lighten-1 chip white-text">Government incentives</div><div class="blue lighten-1 chip white-text">Final parcels on Bar Road</div>
           </div>
         </div>
     </div>
 
     <div class="col s12" id="explore">
-      <img src="photos/holdings.png" alt="Hansen Holdings" style="width:100%; margin:0px; padding:0px;">
+      <a href="photos/holdings.png" target="_blank"><img src="photos/holdings.png" alt="VanHorne Village" style="width:100%; margin:0px; padding:0px;"></a>
+    </div>
+
+    <div class="row white-text" id="details" style="padding-left: 10px;">
+        <h5>Details</h5>
+        <div class="col s12 m6">
+          <p>
+            This land represents the last remaining accessible large parcels in Saint Andrews. The land was formerly a fruit orchard and is completely organic. The topography of the land favours housing units with a walkout and a second floor which will provide full views of Passamaquoddy Bay and Ministers island. Both properties are on Bar road and are a 3 minute walk to the ocean. They are also on the <a href="https://vanhornetrail.com">VanHorne trail</a> for easy pedestrian and bike access to Katys Cove resort and downtown restaurants and culture.
+          </p>
+        </div>
+        <div class="col s12 m6">
+          <ul class="collection" style='color: black;'>
+            <li class="collection-item avatar">
+              <img src="photos/one.png" alt="one" class="circle">
+              <span class="title"><a href="https://paol-efel.snb.ca/paol.html?v=1.0.92&lang=en&pan=01474969" target="_blank">Property 1# details</a></span>
+              <p>Currently subdivided into <a href='photos/subdiv.png' target='_blank'>two 1.5 acre</a> water view lots<br>
+                 Zoned for 2 townhouses, + accessory unit
+              </p>
+            </li>
+            <li class="collection-item avatar">
+              <img src="photos/two.png" alt="one" class="circle">
+              <span class="title"><a href="https://paol-efel.snb.ca/paol.html?v=1.0.92&lang=en&pan=06573124" target="_blank">Property 2# details</a></span>
+              <p>Lily pond developments<br>
+                 Large level parcel with with views of the Algonquin Hotel
+              </p>
+            </li>
+          </ul>
+        </div>
     </div>
 
     <div class="row" id="photos">
       <div style="padding: 10px; padding-top:20px">
         <div class="col s12 m2">
-          <img class="materialboxed" data-caption="Great views available" width="100%" src="photos/viewsqbar.jpeg">
+          <img class="materialboxed" data-caption="Great views of Passamaquoddy Bay available" width="100%" src="photos/viewsqbar.jpeg">
         </div>
         <div class="col s12 m2">
           <img class="materialboxed" data-caption="Directly on the Van Horne trail" width="100%" src="photos/trailsq.jpeg">
@@ -78,17 +105,13 @@
     </div>
 
     <footer class="page-footer black white-text">
-      <div id="mycontainer">
-        <div class="row">
-          <div class="col offset-l5 l6 s12">
+        <div class="row" style='text-align: center;'>
             <h4>Contact us</h4>
-              <p id="contact">
-                <h6 class="white-text">Henry Hansen</h6>
-                <h6 class="white-text">(506) 321-6068</h6>
-              </p>
-          </div>
+            <p id="contact">
+              <h6 class="white-text">Henry Hansen</h6>
+              <h6 class="white-text">(506) 321-6068</h6>
+            </p>
         </div>
-      </div>
     </footer>
 
   </body>
